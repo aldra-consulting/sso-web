@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/aldra-consulting/sso-web/compare/1.0.1...1.0.2) (2023-10-19)
+
+
+### Bug Fixes
+
+* use correct output path for favicon ([1888000](https://github.com/aldra-consulting/sso-web/commit/1888000332e0fca998f93fc0b9907eeb5d1110d6))
+
 ## [1.0.1](https://github.com/aldra-consulting/sso-web/compare/1.0.0...1.0.1) (2023-10-19)
 
 
