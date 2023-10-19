@@ -17,7 +17,7 @@ export default component$(() => {
       <title>{head.title}</title>
 
       <link rel='canonical' href={url.href} />
-      <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+      <link rel='icon' type='image/svg+xml' href='/interactions/favicon.svg' />
       <link rel='manifest' href='/interactions/manifest.json' />
 
       <link rel='preconnect' href='https://rsms.me/' />
