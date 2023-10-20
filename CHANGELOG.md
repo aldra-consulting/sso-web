@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/aldra-consulting/sso-web/compare/1.0.2...1.1.0) (2023-10-20)
+
+
+### Features
+
+* add error page ([f2768ef](https://github.com/aldra-consulting/sso-web/commit/f2768efb6abc864b88221a0845a917c3befc5753))
+
 ## [1.0.2](https://github.com/aldra-consulting/sso-web/compare/1.0.1...1.0.2) (2023-10-19)
 
 
