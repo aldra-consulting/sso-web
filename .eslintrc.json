@@ -81,7 +81,9 @@
           {
             "enforceForClassFields": false
           }
-        ]
+        ],
+        "react/button-has-type": "off",
+        "react/no-unknown-property": "off"
       }
     },
     {
