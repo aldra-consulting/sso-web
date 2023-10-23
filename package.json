@@ -33,7 +33,7 @@
     "lint": "run-p lint:eslint lint:stylelint",
     "lint:eslint": "eslint --ext ts,tsx,js,jsx,json .",
     "lint:eslint:fix": "eslint --ext ts,tsx,js,jsx,json . --fix",
-    "lint:eslint:staged:fix": "eslint --ext ts,tsx,js,jsx,json . --fix",
+    "lint:eslint:staged:fix": "eslint --ext ts,tsx,js,jsx,json --fix",
     "lint:fix": "run-p lint:eslint:fix lint:stylelint:fix",
     "lint:stylelint": "stylelint ./src/**/*.css",
     "lint:stylelint:fix": "stylelint ./src/**/*.css --fix",
