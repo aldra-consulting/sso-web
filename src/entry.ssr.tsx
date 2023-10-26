@@ -10,7 +10,6 @@ export default (opts: RenderToStreamOptions) =>
   renderToStream(<Root />, {
     ...opts,
     manifest,
-    base: '/interactions',
     containerAttributes: {
       ...opts.containerAttributes,
       lang: 'nb',
