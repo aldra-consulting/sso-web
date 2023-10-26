@@ -1,16 +1,16 @@
-import { component$, useStylesScoped$ } from '@builder.io/qwik';
+import { component$, useVisibleTask$ } from '@builder.io/qwik';
 import { type DocumentHead } from '@builder.io/qwik-city';
 
-import styles from './styles.css?inline';
+import { useAppNavigation } from '../hooks';
 
 export default component$(() => {
-  useStylesScoped$(styles);
+  const { goToSignIn } = useAppNavigation();
 
-  return (
-    <main id='page'>
-      <span>Hello, world!</span>
-    </main>
-  );
+  useVisibleTask$(() => {
+    goToSignIn().catch(() => {});
+  });
+
+  return null;
 });
 
 export const head: DocumentHead = {
