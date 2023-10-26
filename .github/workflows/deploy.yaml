@@ -54,6 +54,11 @@ jobs:
           sudo apt-get install gettext-base
 
       - name: Create configuration
+        env:
+          OIDC_ISSUER: ${{ vars.OIDC_ISSUER }}
+          OIDC_CLIENT_ID: ${{ vars.OIDC_CLIENT_ID }}
+          OIDC_SCOPES: ${{ vars.OIDC_SCOPES }}
+          LANDING_PAGE_WEB_URL: ${{ vars.LANDING_PAGE_WEB_URL }}
         run: envsubst < ./config.template > ./lib/interactions/config.js;
 
       - name: Configure AWS credentials

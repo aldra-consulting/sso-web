@@ -20,9 +20,13 @@ Main entry point for Single Sign-On (SSO).
 
 ## Environment Variables
 
-- `NODE_ENV` - current environment
-  - `development`
-  - `production`
+- `OIDC_ISSUER` - OIDC issuer URI
+  - `http://localhost:8001` (default in development mode)
+  - `https://www.id.{env}.alra.no` (must be used in production-like environments)
+  - `https://www.id.alra.no` (must be used in production)
+- `OIDC_CLIENT_ID` - OIDC client ID
+- `OIDC_SCOPES` - OIDC scopes
+- `LANDING_PAGE_WEB_URL` - landing-page-web URL
 
 ## Contributing
 
