@@ -1,0 +1,14 @@
+div {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin: auto;
+}
+
+div[data-centering-axis="vertical"] {
+  margin: auto 0;
+}
+
+div[data-centering-axis="horizontal"] {
+  margin: 0 auto;
+}
