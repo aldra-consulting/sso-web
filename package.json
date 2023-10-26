@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/package",
   "name": "@aldra-consulting/sso-web",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Main entry point for Single Sign-On (SSO).",
   "repository": {
     "type": "git",
