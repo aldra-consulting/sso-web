@@ -18,8 +18,14 @@ export const useInteraction = () => {
     })
   );
 
+  const submitSignIn = $((form: HTMLFormElement) => {
+    form.setAttribute('action', `${env().OIDC_ISSUER}/interaction/${id}`);
+    form.submit();
+  });
+
   return {
     id,
     abort,
+    submitSignIn,
   } as const;
 };
