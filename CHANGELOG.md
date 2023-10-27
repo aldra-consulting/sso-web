@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/aldra-consulting/sso-web/compare/1.2.0...1.2.1) (2023-10-27)
+
+
+### Bug Fixes
+
+* address SSG issues ([60e7fc1](https://github.com/aldra-consulting/sso-web/commit/60e7fc1f690a6b61e1ccb2887c4d66352c87c990))
+* remove harcoded base ([31e444e](https://github.com/aldra-consulting/sso-web/commit/31e444e9ba99a51408870001e1b2c79d90009783))
+
 # [1.2.0](https://github.com/aldra-consulting/sso-web/compare/1.1.0...1.2.0) (2023-10-26)
 
 
