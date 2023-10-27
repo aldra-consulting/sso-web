@@ -4,10 +4,10 @@ declare const self: ServiceWorkerGlobalScope;
 
 setupServiceWorker();
 
-window.addEventListener('install', () => {
+self.addEventListener('install', () => {
   self.skipWaiting().catch(() => {});
 });
 
-window.addEventListener('activate', () => {
+self.addEventListener('activate', () => {
   self.clients.claim().catch(() => {});
 });

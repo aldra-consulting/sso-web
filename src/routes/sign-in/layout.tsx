@@ -14,9 +14,11 @@ import { auth } from '../../utils/auth';
 import { SignInContext } from './context';
 
 export default component$(() => {
-  const { id } = useInteraction();
+  const { getId } = useInteraction();
 
-  useVisibleTask$(() => {
+  useVisibleTask$(async () => {
+    const id = await getId();
+
     if (!id) {
       auth()
         .signIn()
