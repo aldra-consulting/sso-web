@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/aldra-consulting/sso-web/compare/1.2.3...1.2.4) (2023-10-29)
+
+
+### Bug Fixes
+
+* add a small delay to make state change visible ([9a46b35](https://github.com/aldra-consulting/sso-web/commit/9a46b35b078df7c8041656b39d4149dfaadc5d09))
+
 ## [1.2.3](https://github.com/aldra-consulting/sso-web/compare/1.2.2...1.2.3) (2023-10-29)
 
 
