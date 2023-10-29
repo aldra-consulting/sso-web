@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/aldra-consulting/sso-web/compare/1.2.1...1.2.2) (2023-10-29)
+
+
+### Bug Fixes
+
+* remove duplicate password field ([9b596f9](https://github.com/aldra-consulting/sso-web/commit/9b596f994896b58fa52a1935ec68f6ce31292e43))
+
 ## [1.2.1](https://github.com/aldra-consulting/sso-web/compare/1.2.0...1.2.1) (2023-10-27)
 
 
