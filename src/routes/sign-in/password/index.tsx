@@ -44,11 +44,9 @@ export default component$(() => {
   const submit = $((_: unknown, form: HTMLFormElement) => {
     isLoading.value = true;
 
-    submitSignIn(form)
-      .catch(() => {})
-      .finally(() => {
-        isLoading.value = false;
-      });
+    window.setTimeout(() => {
+      submitSignIn(form).catch(() => {});
+    }, 10);
   });
 
   useVisibleTask$(() => {
