@@ -1,3 +1,11 @@
+## [1.2.3](https://github.com/aldra-consulting/sso-web/compare/1.2.2...1.2.3) (2023-10-29)
+
+
+### Bug Fixes
+
+* remove disabled attribute from password input ([461de68](https://github.com/aldra-consulting/sso-web/commit/461de68465927f89156e7561914f4e31327abe54))
+* set background to html and body elements ([e122a55](https://github.com/aldra-consulting/sso-web/commit/e122a551b64d667ce3de3f5f11ba5cc1dcd4d120))
+
 ## [1.2.2](https://github.com/aldra-consulting/sso-web/compare/1.2.1...1.2.2) (2023-10-29)
 
 
