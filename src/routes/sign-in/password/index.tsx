@@ -79,14 +79,6 @@ export default component$(() => {
           readOnly
           hidden
         />
-        <input
-          type='hidden'
-          name='password'
-          value={password.value}
-          autoComplete='off'
-          readOnly
-          hidden
-        />
         <div id='password-slot'>
           <Input
             fluid
