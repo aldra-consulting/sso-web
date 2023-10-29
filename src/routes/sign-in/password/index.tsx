@@ -88,7 +88,6 @@ export default component$(() => {
             placeholder='Passord'
             value={password.value}
             onInput$={onPasswordChange}
-            disabled={isLoading.value}
             readOnly={isLoading.value}
             textAlign='center'
             ref={passwordInputElementRef}
