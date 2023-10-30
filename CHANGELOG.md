@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/aldra-consulting/sso-web/compare/1.2.4...1.2.5) (2023-10-30)
+
+
+### Bug Fixes
+
+* add autocomplete attributes ([7009424](https://github.com/aldra-consulting/sso-web/commit/7009424a16f6077c44bba4fb284404a994d5c6f4))
+
 ## [1.2.4](https://github.com/aldra-consulting/sso-web/compare/1.2.3...1.2.4) (2023-10-29)
 
 
