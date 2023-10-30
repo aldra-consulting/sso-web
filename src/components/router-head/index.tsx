@@ -10,7 +10,7 @@ export default component$(() => {
       <meta charSet='utf-8' />
       <meta
         name='viewport'
-        content='width=device-width, initial-scale=1, maximum-scale=1'
+        content='width=device-width, initial-scale=1, maximum-scale=1, interactive-widget=resizes-content'
       />
       <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
 
