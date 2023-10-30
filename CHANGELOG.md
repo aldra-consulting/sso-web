@@ -1,3 +1,12 @@
+## [1.2.6](https://github.com/aldra-consulting/sso-web/compare/1.2.5...1.2.6) (2023-10-30)
+
+
+### Bug Fixes
+
+* add responsive styles ([5f0b376](https://github.com/aldra-consulting/sso-web/commit/5f0b3763d6a2fe67824cfdc06b9bd067b3360c6f))
+* change styling of animated component ([dd34752](https://github.com/aldra-consulting/sso-web/commit/dd34752a40a2d2b3196a6140aad8b9f7c23b2094))
+* change styling of centered component ([ff70e6e](https://github.com/aldra-consulting/sso-web/commit/ff70e6ee5f5af7f83a287e0704dd2da02e1d4b09))
+
 ## [1.2.5](https://github.com/aldra-consulting/sso-web/compare/1.2.4...1.2.5) (2023-10-30)
 
 
