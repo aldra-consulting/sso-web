@@ -79,6 +79,7 @@ export default component$(() => {
             readOnly={isLoading.value}
             textAlign='center'
             ref={identifierInputElementRef}
+            autoComplete='username'
           />
         </div>
         <div id='actions-slot'>

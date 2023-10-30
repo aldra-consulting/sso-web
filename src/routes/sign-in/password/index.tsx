@@ -62,10 +62,10 @@ export default component$(() => {
         <h1>Velkommen</h1>
         <h2>{identifier}</h2>
         <input
-          type='hidden'
+          type='email'
           name='login'
           value={identifier}
-          autoComplete='off'
+          autoComplete='username'
           readOnly
           hidden
         />
@@ -89,6 +89,7 @@ export default component$(() => {
             readOnly={isLoading.value}
             textAlign='center'
             ref={passwordInputElementRef}
+            autoComplete='current-password'
           />
         </div>
         <div id='actions-slot'>
