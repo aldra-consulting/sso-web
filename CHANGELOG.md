@@ -1,3 +1,10 @@
+## [1.2.7](https://github.com/aldra-consulting/sso-web/compare/1.2.6...1.2.7) (2024-01-23)
+
+
+### Bug Fixes
+
+* change button type ([0291918](https://github.com/aldra-consulting/sso-web/commit/0291918f13eb44e234ce78bfb550c241774a6569))
+
 ## [1.2.6](https://github.com/aldra-consulting/sso-web/compare/1.2.5...1.2.6) (2023-10-30)
 
 
