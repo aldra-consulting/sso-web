@@ -94,7 +94,7 @@ export default component$(() => {
             Neste
           </Button>
           <Button
-            type='submit'
+            type='button'
             colour='red'
             onClick$={abort}
             disabled={isLoading.value}
